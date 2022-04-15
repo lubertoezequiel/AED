@@ -8,11 +8,10 @@
 <img  src="utn_logo.jpg" width="50%" height="50%" />
 </p>
 
-|<!-- -->|<!-- -->|
-|:---------|:---------------------------------|
-|Materia   |Algoritmos y estructura de Datos  |
-| Curso    |                                  |
-| Año      | 2022                             |
-| Legajo   |                                  |
-| Apellido | Luberto                          |
-| Nombre   | Ezequiel Antonio                 |
+|Materia:   |Algoritmos y estructura de Datos  |
+|:---------|:----------------------------------|
+| Curso:    |                                  |
+| Año:      | 2022                             |
+| Legajo:   |                                  |
+| Apellido: | Luberto                          |
+| Nombre:   | Ezequiel Antonio                 |

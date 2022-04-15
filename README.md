@@ -8,7 +8,7 @@
 <img  src="utn_logo.jpg" width="50%" height="50%" />
 </p>
 
-|   | |
+|<!-- -->|<!-- -->|
 |:---------|:---------------------------------|
 |Materia   |Algoritmos y estructura de Datos  |
 | Curso    |                                  |

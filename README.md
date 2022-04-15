@@ -1,4 +1,4 @@
-## Universidad Tecnólogica Nacional
+<h2 align=center>Universidad Tecnólogica Nacional<h2>
 
 <h2 align=center>Facultad Regional Buenos Aires <h2>
 

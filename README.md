@@ -10,7 +10,7 @@
 
 |Materia:   |Algoritmos y estructura de Datos  |
 |:---------|:----------------------------------|
-| Curso:    |                                  |
+| Curso:    | K1051                            |
 | Año:      | 2022                             |
 | Legajo:   |                                  |
 | Apellido: | Luberto                          |

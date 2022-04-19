@@ -38,6 +38,6 @@ Usuario
 
 ### Nota ###
 
-Compilar con make .\hello.mak
-Ejecutar el hello.bat 
+Compilar con make .\hello.mak  
+Ejecutar el hello.bat  
 Observar salida en output.txt

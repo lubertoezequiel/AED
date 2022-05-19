@@ -5,6 +5,7 @@
 */
 #include <iostream>
 #include <cassert>
+#include <string>
 
 int main()
 {
@@ -13,6 +14,8 @@ int main()
     bool b_ex2=false;
     char ch_ex1 = 'A';
     char ch_ex2 = 'B';
+    std::string str_test_1= "hola"; 
+    std::string str_test_2= "que tal";
     //Boolean and operators
     //equal operator
     assert(true==true); 
@@ -56,7 +59,13 @@ int main()
     assert(2.00==2.000);
     assert(1/3==2/6);
     assert(1.4e-10 == 14e-11);
-
+    assert(2.1*5==(5.5+5));
+    //String
+    assert(str_test_1=="hola");
+    assert(str_test_1+str_test_2=="holaque tal");
+    assert(str_test_1 + " "=="hola ");
+    assert(str_test_1.length()==4);
+    
     return 0;
 
 }

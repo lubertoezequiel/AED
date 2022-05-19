@@ -26,7 +26,7 @@ Usuario
         |-- Ejemplotipos.cpp  
         |-- Makefile  
 
-### Nota ###
+### Nota ###gi
 
 Compilar con make .\hello.mak  
 Ejecutar el hello.bat  

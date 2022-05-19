@@ -1,5 +1,7 @@
+make.exe --dry-run --keep-going --print-directory
 make.exe: Entering directory `/c/Users/luber/Documents/algoritmos/aed/AED/01-Ejemplotipos'
+g++ -c Ejemplotipos.cpp -o ejemplotipos.o -std=c++17
+g++ ejemplotipos.o -o ejemplotipos.exe -std=c++17
+ 
 make.exe: Leaving directory `/c/Users/luber/Documents/algoritmos/aed/AED/01-Ejemplotipos'
  
-make.exe: *** No targets.  Stop.
-

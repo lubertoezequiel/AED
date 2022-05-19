@@ -1,0 +1,5 @@
+make.exe: Entering directory `/c/Users/luber/Documents/algoritmos/aed/AED/00-CppHelloWorld'
+g++ -c hello.cpp -o hello.o -std=c++17
+g++ hello.o -o hello.exe -std=c++17
+make.exe: Leaving directory `/c/Users/luber/Documents/algoritmos/aed/AED/00-CppHelloWorld'
+ 

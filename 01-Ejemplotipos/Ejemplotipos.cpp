@@ -3,19 +3,17 @@
  *Autor: Ezequiel Antonio Luberto
  *Fecha: 16/4/2022
 */
+
 #include <iostream>
 #include <cassert>
 #include <string>
 
+using namespace std::string_literals;
+
 int main()
 {
-    //Delcaration 
-    bool b_ex1=true;
-    bool b_ex2=false;
-    char ch_ex1 = 'A';
-    char ch_ex2 = 'B';
-    std::string str_test_1= "hola"; 
-    std::string str_test_2= "que tal";
+    
+
     //Boolean and operators
     //equal operator
     assert(true==true); 
@@ -37,7 +35,7 @@ int main()
     assert('a'<'b');
     assert('a'!='b');
     assert('b'>'a');
-    assert(ch_ex1!=ch_ex2);
+    
     //Int and operators
     //equal operator
     assert(1==1);
@@ -55,17 +53,29 @@ int main()
     assert(4==2+2);
     assert(2==4/2);
     assert(1==3%2);
+    assert(666U==666U);
     //Double and operators
     assert(2.00==2.000);
     assert(1/3==2/6);
     assert(1.4e-10 == 14e-11);
     assert(2.1*5==(5.5+5));
-    //String
-    assert(str_test_1=="hola");
-    assert(str_test_1+str_test_2=="holaque tal");
-    assert(str_test_1 + " "=="hola ");
-    assert(str_test_1.length()==4);
+    //Forma de utilizar separadores para los digitos para lograr mejor lectura
+    assert(1.4e4==14'0'0'0);
     
+    //String
+    assert("hola"s=="hola"s);
+    assert("hola"s + "que tal"s =="holaque tal"s);
+    assert("hola"s + " "s=="hola "s);
+    assert(("hola"s).length()==4);
+        
+    /*Limites de tipo de datos y tamaño de tipo de dato*/
+    std::cout<< sizeof "abcddfgsdfgsdfgsdfgsdfga"s;
+    assert(sizeof 1 == 4);
+    assert(sizeof "ABC"s == 4);
+    assert(sizeof 1U == 4);
+    assert(sizeof 1 == 4);
+    /*No tiene que haber vriables*/
+
     return 0;
 
-}
+}  

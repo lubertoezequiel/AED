@@ -4,7 +4,6 @@
  *Fecha: 16/4/2022
 */
 
-#include <iostream>
 #include <cassert>
 #include <string>
 
@@ -40,25 +39,31 @@ int main()
     //equal operator
     assert(1==1);
     assert(-1==-1);
+    
     //not equal operator
     assert(1!=0);
+    
     //Major
     assert(1>0);
     assert(1>=0);
+    
     //Minor
     assert(1<2);
     assert(1<=2);
+    
     //Equal 
     assert(4==2*2);
     assert(4==2+2);
     assert(2==4/2);
     assert(1==3%2);
     assert(666U==666U);
+    
     //Double and operators
     assert(2.00==2.000);
     assert(1/3==2/6);
     assert(1.4e-10 == 14e-11);
     assert(2.1*5==(5.5+5));
+    
     //Forma de utilizar separadores para los digitos para lograr mejor lectura
     assert(1.4e4==14'0'0'0);
     
@@ -69,11 +74,10 @@ int main()
     assert(("hola"s).length()==4);
         
     /*Limites de tipo de datos y tamaño de tipo de dato*/
-    std::cout<< sizeof 'a';
     assert(sizeof 3 == 4);
     assert(sizeof 1e3 == 8);
     assert(sizeof 'a' == 1);
-    /*No tiene que haber vriables*/
+    
 
     return 0;
 

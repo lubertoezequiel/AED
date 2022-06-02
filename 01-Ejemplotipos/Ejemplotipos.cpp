@@ -69,11 +69,10 @@ int main()
     assert(("hola"s).length()==4);
         
     /*Limites de tipo de datos y tamaño de tipo de dato*/
-    std::cout<< sizeof "abcddfgsdfgsdfgsdfgsdfga"s;
-    assert(sizeof 1 == 4);
-    assert(sizeof "ABC"s == 4);
-    assert(sizeof 1U == 4);
-    assert(sizeof 1 == 4);
+    std::cout<< sizeof 'a';
+    assert(sizeof 3 == 4);
+    assert(sizeof 1e3 == 8);
+    assert(sizeof 'a' == 1);
     /*No tiene que haber vriables*/
 
     return 0;
